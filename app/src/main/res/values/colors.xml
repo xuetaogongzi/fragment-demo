@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="appBgGray">#ecf0f3</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="mainTabTextChecked">#1E88E6</color>
+    <color name="mainTabTextNormal">#969FA9</color>
 </resources>

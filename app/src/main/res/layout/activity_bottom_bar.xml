@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBgGray">
+
+    <FrameLayout
+        android:id="@+id/FrameLayout_Container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/BottomTabGroup"
+        />
+
+    <com.wangjw.bottombar.widget.BottomTabGroup
+        android:id="@+id/BottomTabGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <com.wangjw.bottombar.widget.BottomTab
+            android:id="@+id/BottomTab_Main_Bus"
+            style="@style/MainTab"
+            android:drawableTop="@drawable/slic_main_tab_bus"
+            android:text="班车"
+            />
+
+        <com.wangjw.bottombar.widget.BottomTab
+            android:id="@+id/BottomTab_Main_Mine"
+            style="@style/MainTab"
+            android:drawableTop="@drawable/slic_main_tab_mine"
+            android:text="我的"
+            />
+
+    </com.wangjw.bottombar.widget.BottomTabGroup>
+
+</RelativeLayout>
